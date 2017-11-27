@@ -2,16 +2,7 @@
 /* 设置整个页面的基础样式 */
 
 /* *代表通配符, css中*{}代表所有HTML的doc所有元素标签 */
-*{
-  /* 外边距 */
-  margin: 0px;
-  /* padding */
-  padding: 0px;
-  /* 字体大小 */
-  font-size: 17px; 
-  /* 字体样式 */
-  font-family: "黑体";
-}
+
 
 /* body为整个代码区域附上背景颜色  */
 body{
@@ -19,8 +10,19 @@ body{
 }
 
 
+ol,
+ul {
+    list-style: none
+}
 
+a {
+    text-decoration: none;
+    color: #999999
+}
 
+a:hover {
+    text-decoration: none
+}
 
 
 

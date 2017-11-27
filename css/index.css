@@ -1,0 +1,102 @@
+@charset"utf-8";
+body {
+    background: #F6F6F6
+}
+
+/*===============================*/
+/* ------头部区域 ------------*/
+/*=============================*/
+#top {
+	height: 30px;
+	background: #E3E4E5;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+
+.top {
+	width: 1190px;
+	height: 30px;
+	margin: 0 auto;
+	color: #999;
+}
+
+.top-left {
+	width: 305px;
+	line-height: 30px;
+	position: relative;
+	text-align: right;
+	font-size: 12px;
+}
+.floatL {
+	float: left;
+}
+
+
+.top-right {
+	width: 800px;
+	height: 30px;
+}
+
+.floatR {
+	float: right;
+}
+
+.top-right-ul {
+	list-style-type: none;
+}
+
+.top-right-ul ,li {
+	float: left;
+	margin: 0 0 0 9px;
+	line-height: 30px;
+	position: relative;
+	border: 1px solid transparent;
+}
+
+.top-right-ul a{
+	text-decoration: none;
+}
+
+.top-right-ul .l {
+   height: 10px;
+   background: #CCCCCC;
+   margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
