@@ -54,14 +54,16 @@ body {
 
 /* ------头部logo,搜索框部分,购物车二维码部分------*/
 /* 
-   1.外层div相对位置,内层div绝对位置 
+   知识点:
+    1.外层div相对位置,内层div绝对位置 
+    2.margin 上、右、下 左外边距
 */
 .found {
    width: 1200px;
    height: 140px;
    margin: 3px auto;
 }
-
+/* ---- 一.头部logo区域  ----*/
 .foundleft {
 	/* 可以设置背景色 */
 	/*background: url("../img/dog.png") no-repeat;*/
@@ -76,6 +78,7 @@ body {
 	margin: 0px;
 }
 
+/* --- 二.头部中部搜索框区域 ------*/
 .foundmain {
 	width: 653px;
 	height: 140px;
@@ -89,15 +92,85 @@ body {
 	overflow: hidden;
 }
 
+/* 搜索框 搜索按钮 */
+.foundmaina-div-searchL {
+     height: 38px;
+}
+
+.searchinput {
+    width: 486px;
+    height: 35px;
+    margin-top: 3px;
+    padding-left: 10px;
+    border: 1.5px solid red;
+    font: 14px 微软雅黑;
+    color: gray;
+    float: left;
+}
+
+.searchButton {
+    width: 50px;
+    height: 35px;
+    background: red;
+    display: inline-block;
+    margin: 3px 0 0 0;
+    cursor: pointer;
+    border: 1.5px solid red;
+    float: left;
+}
+
+.searchButton button {
+	text-align: center;
+	margin: 8px;
+	background: red;
+	color: white;
+}
+
+/* 搜索框下方热门 */
+.foundmaina-div-hot {
+    margin: 10px 0 0 0;
+}
+
+.foundmaina-div-hot a {
+	padding: 0 7px 0 0; 
+}
+
+.foundmaina-div-hot a:hover {
+    color: #C81623;
+}
+
+.foundmaina-hotcolorred {
+	padding: 0 0 0 5px;
+	color: red;
+}
+
+/*  搜索框下方 秒杀 优惠券 闪购 等关键词按钮 */
 .foundmainb {
 	width: 600px;
 	height: 30px;
 	margin: 15px 0 0 50px;
 }
+.foundmainb-ul li {
+	float: left;
+	margin: 0 18px 5px 0;
+	line-height: 30px;
+}
+
+.foundmain-ul .ll {
+    height: 13px;
+    background: #CCCCCC;
+    width: 1px;
+    margin: 7px 0 0 0;
+}
+
+.foundmainb-ul li a {
+	font: 16px 微软雅黑;
+	color: #555;
+	font-weight: 700;
+}
 
 
-
-
+/* --- 三.头部右面二维码 购物车区域 区域 ------*/
 .foundright {
 	width: 350px;
 	height: 140px;
@@ -107,16 +180,37 @@ body {
 
 .foundrighta {
     width: 190px;
-    
+    height: 35px;
+    /* 上、左右、下外边距 */
+    margin: 18px 0 0 10px; 
+    border: 1px solid #E3E4E5;
+    background: white;
+    color: red;
+    position: relative;
 }
 
-.foundrightb {
+.foundrighta p {
+	margin: 7px 0 0 36px;
+}
 
+.foundrighta p span {
+	padding: 0 0 0 5px;
+}
+
+
+.foundrightb {
+	width: 70px;
+	height: 70px;
+	top: 0px;
+    right: 60px;
+    position: absolute;
+    float: right;
 }
 
 .foundrightc {
-
-
+    width: 190px;
+    height: 40px;
+    margin: 33px 0 0 150px;
 }
 
 
