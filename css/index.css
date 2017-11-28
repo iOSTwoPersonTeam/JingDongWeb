@@ -6,18 +6,16 @@ body {
 /*===============================*/
 /* ------头部区域 ------------*/
 /*=============================*/
-#top {
-	height: 30px;
+
+/* ----导航标签------ */
+.top {
 	background: #E3E4E5;
+	color: #999;
 	font-family: "微软雅黑";
 	font-size: 12px;
-}
-
-.top {
 	width: 1190px;
 	height: 30px;
 	margin: 0 auto;
-	color: #999;
 }
 
 .top-left {
@@ -26,26 +24,17 @@ body {
 	position: relative;
 	text-align: right;
 	font-size: 12px;
-}
-.floatL {
 	float: left;
 }
-
 
 .top-right {
 	width: 800px;
 	height: 30px;
-}
-
-.floatR {
 	float: right;
 }
 
-.top-right-ul {
-	list-style-type: none;
-}
-
 .top-right-ul ,li {
+	list-style-type: none;
 	float: left;
 	margin: 0 0 0 9px;
 	line-height: 30px;
@@ -63,16 +52,72 @@ body {
    margin: 10px;
 }
 
+/* ------头部logo,搜索框部分,购物车二维码部分------*/
+/* 
+   1.外层div相对位置,内层div绝对位置 
+*/
+.found {
+   width: 1200px;
+   height: 140px;
+   margin: 3px auto;
+}
+
+.foundleft {
+	/* 可以设置背景色 */
+	/*background: url("../img/dog.png") no-repeat;*/
+	width: 190px;
+	height: 172px;
+	position: absolute; /* 位置 */
+	top: 0px;
+	float: left;
+}
+
+.foundleft img {
+	margin: 0px;
+}
+
+.foundmain {
+	width: 653px;
+	height: 140px;
+	margin-left: 190px;
+	float: left;
+}
+.foundmaina {
+	width: 553px;
+	height: 75px;
+	margin: 15px 10px 0 90px;
+	overflow: hidden;
+}
+
+.foundmainb {
+	width: 600px;
+	height: 30px;
+	margin: 15px 0 0 50px;
+}
 
 
 
 
+.foundright {
+	width: 350px;
+	height: 140px;
+	position: relative;
+	float: right;
+}
+
+.foundrighta {
+    width: 190px;
+    
+}
+
+.foundrightb {
+
+}
+
+.foundrightc {
 
 
-
-
-
-
+}
 
 
 
