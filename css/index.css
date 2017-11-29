@@ -349,7 +349,7 @@ body {
     border-radius: 50%;
     float: left;
     /* overflow 属性规定当内容溢出元素框时发生的事情
-       hidden多出内容会被裁剪*/
+       hidden多出内容会被裁剪 */
     overflow: hidden;
 }
 
