@@ -269,11 +269,61 @@ body {
    position: relative;
 }
 
+/* 轮播图 ------*/
+.slideshow {
+   width: 790px;
+   height: 340px;
+}
+
+.slideshow ul li {
+  position: absolute;
+  width: 790px;
+  height: 340px;
+  display: none;
+}
+
+.slidepoint {
+  width: 173px;
+  height: 20px;
+  /* 设置边框圆角 */
+  border-radius: 8px 8px;
+  background-color: hsla(0, 0%, 100%, .3);
+  /* absolute绝对位置设置 确定位置 偏移量 */
+  position: absolute;
+  left: 304px;
+  bottom: 17px;
+}
+
+.slidepoint li {
+  width: 12px;
+  height: 12px;
+  border-radius: 8px;
+  background: white;
+  float: left;
+  margin: 4px 3px 0 6px;
+  /* cursor 指针光标属性*/
+  cursor: pointer;
+}
+
+.slidepoint .red {
+  background: red;
+}
+
+/* 轮播图下方图片区域 ------*/
 .centermiddle-bottom {
     width: 790px;
     height: 130px;
     margin: 10px 0 0 0;
 }
+
+.centermiddle-bottomL {
+   float: left;
+}
+
+.centermiddle-bottomR {
+   float: right;
+} 
+
 
 /* 右面新人福利 注册 白条等内容区域 */
 .centerright {
@@ -287,10 +337,76 @@ body {
      height: 120px;
 }
 
+.loginimg {
+     width: 170px;
+     height: 45px;
+     margin: 10px;
+}
+
+.loginimgleft {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    float: left;
+    /* overflow 属性规定当内容溢出元素框时发生的事情
+       hidden多出内容会被裁剪*/
+    overflow: hidden;
+}
+
+.loginimgright {
+     float: right;
+}
+
+.logintitle {
+    width: 170px;
+    height: 37px;
+}
+
+.logintitle a {
+    width: 75px;
+    height: 25px;
+    text-align: center;
+    border: 2px solid #C81623;
+    color: #C81623;
+    line-height: 25px;
+    margin: 9px 0 0 0;
+}
+
+.logintitleL {
+  float: left;
+}
+
+.logintitleR {
+  float: right;
+}
+
 .centerright-middle {
     width: 190px;
     height: 150px;
 }
+.centerright-middleL {
+    width: 175px;
+    height: 20px;
+}
+
+.centerright-middleL li {
+     display: inline-block;
+     width: 40px;
+     height: 20px;
+     border-right: 1px solid gainsboro;
+     text-align: center;
+     margin: 0 5px 0 0;
+}
+
+.centerright-middleL .on {
+    border-bottom: 2px solid red;
+    width: 60px;
+}
+
+.centerright-middleR {
+    margin: 13px 0 0 10px;
+}
+
 
 .centerright-bottom {
      width: 190px;
@@ -298,6 +414,11 @@ body {
      position: relative;
 }
 
+.centerright-bottom li a {
+    width: 46px;
+    height: 66px;
+    float: left;
+}
 
 
 
