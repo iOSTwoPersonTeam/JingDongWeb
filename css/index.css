@@ -33,7 +33,7 @@ body {
 	float: right;
 }
 
-.top-right-ul ,li {
+.top-right-ul li {
 	list-style-type: none;
 	float: left;
 	margin: 0 0 0 9px;
@@ -52,7 +52,9 @@ body {
    margin: 10px;
 }
 
+/*============================================*/
 /* ------头部logo,搜索框部分,购物车二维码部分------*/
+/*===========================================*/
 /* 
    知识点:
     1.外层div相对位置,内层div绝对位置 
@@ -152,7 +154,7 @@ body {
 }
 .foundmainb-ul li {
 	float: left;
-	margin: 0 18px 5px 0;
+	margin: 0 15px 5px 0;
 	line-height: 30px;
 }
 
@@ -170,7 +172,7 @@ body {
 }
 
 
-/* --- 三.头部右面二维码 购物车区域 区域 ------*/
+/* ---- 三.头部右面二维码 购物车区域 区域 ------*/
 .foundright {
 	width: 350px;
 	height: 140px;
@@ -213,18 +215,88 @@ body {
     margin: 33px 0 0 150px;
 }
 
+/*============================================*/
+/*-------------- 二级菜单 轮播图区域 -------------*/
+/*============================================*/
+
+.center {
+  width: 1200px;
+  height: 480px;
+  margin:0 auto;
+  position: relative;
+}
+
+/* 左边菜单栏区域 */
+.centerleft {
+    width: 190px;
+    height: 480px;
+    float: left;
+    background: #6E6568;
+}
+
+.centerleft-ul {
+   width: 190px;
+   height: 450px;
+   margin: 15px 0 15px 0;
+   position: relative;
+}
+
+.centerleft-ul li {
+    width: 190px;
+    height: 30px;
+    color: white;
+    line-height: 30px;
+    margin: 0 5px; 
+}
+
+.centerleft-ul a {
+    font: 14px 微软雅黑;
+    font-weight: bold;
+}
 
 
+/* 中部主要轮播图区域 */
+.centermiddle {
+    width: 790px;
+    height: 480px;
+    float: left;
+    margin: 0 10px;
+}
 
+.centermiddle-top {
+   width: 790px;
+   height: 340px;
+   position: relative;
+}
 
+.centermiddle-bottom {
+    width: 790px;
+    height: 130px;
+    margin: 10px 0 0 0;
+}
 
+/* 右面新人福利 注册 白条等内容区域 */
+.centerright {
+    width: 190px;
+    height: 480px;
+    float: left;
+}
 
+.centerright-top {
+     width: 190px;
+     height: 120px;
+}
 
+.centerright-middle {
+    width: 190px;
+    height: 150px;
+}
 
-
-
-
-
+.centerright-bottom {
+     width: 190px;
+     height: 210px;
+     position: relative;
+}
 
 
 
