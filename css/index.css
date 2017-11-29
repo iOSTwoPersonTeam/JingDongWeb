@@ -479,6 +479,90 @@ body {
 }
 
 
+/* ==================================== */
+/* -------京东秒杀区域---------------*/
+/*=====================================*/
+
+.JDMSPart {
+   width: 1200px;
+   height: 305px;
+   margin: 0 auto;
+   position: relative;
+}
+
+/* 京东秒杀标题栏区域 */
+.JDMStitileBar {
+   width: 100%;
+   height: 55px;
+}
+
+.JDMStitileBar-border {
+    width: 25px;
+    height: 25px;
+    /* 位置设为绝对以后 要指定其位置的上下左右等部分信息 */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.JDMStitileBar-left {
+    width: 40px;
+    height: 55px;
+    float: left;
+    margin-left: 35px;
+}
+
+.JDMStitileBar-center {
+
+}
+
+.JDMStitileBar-right {
+
+}
+
+/* 京东秒杀图片展示区域 */
+.JDMSimg {
+  width: 100%;
+  height: 250px;
+}
+
+.JDMSimg-left {
+
+}
+
+.JDMSimg-right {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
