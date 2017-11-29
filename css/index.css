@@ -418,15 +418,65 @@ body {
     width: 46px;
     height: 66px;
     float: left;
+    text-align: center;
 }
 
+.centerright-bottom li a i {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/sprite_fs.png);
+    background-repeat: no-repeat;
+    margin: 0 12px 2px 12px;
+}
 
+.centerright-bottom li .service1 {
+    background-position: 0 -88px;
+}
 
+.centerright-bottom li .service2 {
+    background-position: 0 -45px;
+}
 
+.centerright-bottom li .service3 {
+    background-position: -44px -88px;
+}
 
+.centerright-bottom li .service4 {
+    background-position: -88px 0;
+}
 
+.centerright-bottom li .service5 {
+    background-position: -88px -46px;
+}
 
+.centerright-bottom li .service6 {
+    background-position: 0 0;
+}
 
+.centerright-bottom li .service7 {
+    background-position: -44px -47px;
+}
+
+.centerright-bottom li .service8 {
+    background-position: -88px -88px;
+}
+
+.centerright-bottom li .service9 {
+    background-position: -88px -46px;
+}
+
+.centerright-bottom li .service10 {
+    background-position: -132px 0;
+}
+
+.centerright-bottom li .service11 {
+    background-position: -132px -88px;
+}
+
+.centerright-bottom li .service12 {
+    background-position: -44px 0;
+}
 
 
 
