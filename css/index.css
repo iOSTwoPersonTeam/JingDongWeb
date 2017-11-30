@@ -451,23 +451,23 @@ body {
 }
 
 .centerright-bottom li .service6 {
-    background-position: 0 0;
-}
-
-.centerright-bottom li .service7 {
     background-position: -44px -47px;
 }
 
-.centerright-bottom li .service8 {
+.centerright-bottom li .service7 {
     background-position: -88px -88px;
 }
 
+.centerright-bottom li .service8 {
+    background-position: 0 0;
+}
+
 .centerright-bottom li .service9 {
-    background-position: -88px -46px;
+    background-position: -132px  0;
 }
 
 .centerright-bottom li .service10 {
-    background-position: -132px 0;
+    background-position: -132px -45px;
 }
 
 .centerright-bottom li .service11 {
