@@ -486,7 +486,7 @@ body {
 .JDMSPart {
    width: 1200px;
    height: 305px;
-   margin: 0 auto;
+   margin: 15px auto;
    position: relative;
 }
 
@@ -494,6 +494,8 @@ body {
 .JDMStitileBar {
    width: 100%;
    height: 55px;
+   background: url(../img/mlksbackground.png) no-repeat;
+   color: white;
 }
 
 .JDMStitileBar-border {
@@ -501,45 +503,206 @@ body {
     height: 25px;
     /* 位置设为绝对以后 要指定其位置的上下左右等部分信息 */
     position: absolute;
-    left: 0;
-    top: 0;
+    left: -5px;
+    top: -5px;
+    background: url(../img/sprite.png) no-repeat -189px -46px;
 }
 
 .JDMStitileBar-left {
     width: 40px;
     height: 55px;
     float: left;
-    margin-left: 35px;
+    margin: 10px 0 0 35px;
+    background: url(../img/sprite.png) no-repeat 0 -40px;
 }
 
-.JDMStitileBar-center {
 
+.JDMStitileBar-center {
+    margin: 5px 0 0 5px;
+    height: 55px;
+    width: 350px;
+    float: left;
+}
+
+.JDMStitileBar-center a {
+    padding: 0 0 0 15px;
 }
 
 .JDMStitileBar-right {
-
+    width: 350px;
+    height: 55px;
+    float: right;
 }
+
+.JDMStitileBar-righta {
+    margin: 0 10px;
+    line-height: 55px;
+    text-align: center;
+    float: left;
+}
+
+.JDMStitileBar-rightb {
+   float: left;
+   margin: 5px 0 0 0;
+   width: 47px;
+   height: 47px;
+   line-height: 47px;
+   text-align: center;
+   font-size: 35px;
+   text-align: center;
+   background: #440106;
+   color: red;
+}
+
+.JDMStitileBar-rightc {
+   float: left;
+   width: 15px;
+   height: 55px;
+}
+
+.JDMStitileBar-rightc i {
+   margin: 15px 0 4px 5px;
+   width: 7px;
+   height: 7px;
+   background: white;
+   display: block;  /* block块级元素显示 带换行符 */
+   
+}
+
+.JDMStitileBar-rightd {
+    float: left;
+    width: 47px;
+    height: 47px;
+    margin: 5px 0 0 0;
+    background: #440106;
+    color: red;
+    font-size: 35px;
+    text-align: center;
+    line-height: 47px;
+}
+
+.JDMStitileBar-righte {
+   float: left;
+   width: 15px;
+   height: 55px;
+}
+
+.JDMStitileBar-righte i {
+    width: 7px;
+    height: 7px;
+    display: block;
+    margin: 15px 0 4px 5px;
+    background: white;
+}
+
+.JDMStitileBar-rightf {
+   float: left;
+   width: 47px;
+   height: 47px;
+   margin: 5px 0 0 0;
+   background: #440106;
+   color: red;
+   font-size: 35px;
+   line-height: 47px;
+}
+
+.JDMStitileBar-righth {
+   float: left;
+   line-height: 55px;
+   margin: 0 10px;
+   font:微软雅黑;
+}
+
 
 /* 京东秒杀图片展示区域 */
 .JDMSimg {
   width: 100%;
   height: 250px;
+  position: absolute;
 }
 
 .JDMSimg-left {
+   width: 985px;
+   height: 250px;
+   float: left;
+}
 
+.JDMSimg-left-ul {
+  width: 100%;
+  height: 225px;
+  position: absolute;
+  margin: 12px 0 0 0;
+}
+
+.JDMSimg-left-ul li {
+  display: inline-block;
+}
+
+.JDMSimg-left-ul li a {
+   width: 196px;
+   height: 225px;
+   display: block;
+}
+
+.JDMSimg-left-ul-img {
+  width: 132px;
+  height: 132px;
+  margin: 10px 25px 0;
+}
+
+.JDMSimg-left-ul-title {
+  width: 170px;
+  height: 80px;
+  margin: 1px 25px;
+  overflow: hidden;
+}
+
+.JDMSimg-left-ul-title p {
+   font:12px 微软雅黑;
+   color: #999;
+   margin: 4px 0;
+}
+
+.JDMSimg-left-ul-title .price {
+    color: red;
+    font: 19px 微软雅黑;
 }
 
 .JDMSimg-right {
-
-
+    width: 203px;
+    height: 225px;
+    float: right;
+    margin: 12px 0 0 0;
+    position: relative;
 }
 
+.JDMSimg-right-ul {
+   width: 180px;
+   height: 225px;
+   margin: 0 0 0 10px;
+   position: relative;
+}
 
+.JDMSimg-right-focus {
+   width: 50px;
+   height: 20px;
+   position: absolute;
+   bottom: 5px;
+   left: 75px;
+}
 
+.JDMSimg-right-focus li {
+    width: 10px;
+    height: 10px;
+    background: black;
+    display: inline-block;
+    margin: 5px 0 0 10px;
+    border-radius: 50%;
+}
 
-
-
+.JDMSimg-right-focus .on {
+   background: red;
+}
 
 
 
