@@ -708,7 +708,7 @@ body {
 /* ==================================== */
 /* -------  发现,品牌,排行榜  ----------------*/
 /*=====================================*/
-.goods {
+.goodspart {
    width: 1200px;
    height: 450px;
    background: white;
@@ -717,21 +717,21 @@ body {
 }
 
 /*---发现好货 ----*/
-.goods-left {
+.goodspart-left {
    width: 390px;
    height: 450px;
    float: left;
    color: white;
 }
 
-.goods-left-title {
+.goodspart-left-title {
    width: 390px;
    height: 55px;
    background: #4998A1;
    position: relative;
 }
 
-.goods-left-titlea {
+.goodspart-left-titlea {
    position: absolute;
    top: 0;
    left: 0;
@@ -751,29 +751,29 @@ body {
 
 }
 
-.goods-left-titlec {
+.goodspart-left-titlec {
     float: left;
     margin: 0 0 0 20px;
     font: 26px 微软雅黑;
     line-height: 55px;
 }
 
-.goods-left-titled {
+.goodspart-left-titled {
     float: right;
 }
 
-.goods-left-titled a {
+.goodspart-left-titled a {
    margin: 0 20px 0 0;
    line-height: 55px;
 }
 
-.goods-left-ul {
+.goodspart-left-ul {
    width: 378px;
    height: 383px;
    margin: 6px;
 }
 
-.goods-left-ul li a {
+.goodspart-left-ul li a {
    width: 187px;
    height: 124px;
    float: left;
@@ -782,14 +782,14 @@ body {
    border-bottom: 1px solid #E7E7E7;
 }
 
-.goods-left-ul li a p {
+.goodspart-left-ul li a p {
    width: 80px;
    height: 40px;
    color: #4998A1;
    margin: 15px 0 0 15px;
 }
 
-.goods-left-ul li a img {
+.goodspart-left-ul li a img {
    position: absolute;
    right: 5px;
    bottom: 7px;
@@ -797,14 +797,14 @@ body {
 }
 
 /*---- 品牌头条 ----*/
-.goods-center {
+.goodspart-center {
    width: 390px;
    height: 450px;
    float: left;
    margin: 0 10px;
 }
 
-.goods-center-title {
+.goodspart-center-title {
    width: 390px;
    height: 55px;
    background: #7D2E5C;
@@ -812,7 +812,7 @@ body {
    color: white;
 }
 
-.goods-center-titlea {
+.goodspart-center-titlea {
     position: absolute;
     top: 0;
     left: 0;
@@ -822,7 +822,7 @@ body {
     border-right: 19px solid transparent;
 }
 
-.goods-center-titleb {
+.goodspart-center-titleb {
    width: 20px;
    height: 20px;
    position: absolute;
@@ -831,52 +831,52 @@ body {
    background: url(../img/sprite.png) no-repeat -2px -163px;
 }
 
-.goods-center-titlec {
+.goodspart-center-titlec {
    float: left;
    font: 26px 微软雅黑;
    line-height: 55px;
    margin: 0 0 0 20px;
 }
 
-.goods-center-titled {
+.goodspart-center-titled {
     float: right;
 }
 
-.goods-center-titled a {
+.goodspart-center-titled a {
     line-height: 55px;
     margin: 0 20px 0 0;
 }
 
-.goods-center-div {
+.goodspart-center-div {
    width: 378px;
    height: 383px;
    margin: 6px;
    position: relative;
 }
 
-.goods-center-div ul li a{
+.goodspart-center-div ul li a{
     float: left;
     width: 187px;
     height: 220px;
     border-right: 1px solid #E7E7E7;
 }
 
-.goods-center-div ul li a div {
+.goodspart-center-div ul li a div {
     width: 140px;
     height: 45px;
     margin: 15px 0 20px 20px;   
 }
 
-.goods-center-div ul li a div h2 {
+.goodspart-center-div ul li a div h2 {
     font: 16px 微软雅黑;
     color: #7D2E5C;
 }
 
-.goods-center-div ul li a img {
+.goodspart-center-div ul li a img {
     margin: 0 0 0 20px;
 }
 
-.goods-center-div-bottom {
+.goodspart-center-div-bottom {
     width: 372px;
     height: 132px;
     position: absolute;
@@ -885,13 +885,13 @@ body {
 }
 
 /*---- 排行榜 ----*/
-.goods-right {
+.goodspart-right {
    width: 390px;
    height: 450px;
    float: left;
 }
 
-.goods-right-title {
+.goodspart-right-title {
     width: 390px;
     height: 55px;
     position: relative;
@@ -899,7 +899,7 @@ body {
     color: white;
 }
 
-.goods-right-titlea {
+.goodspart-right-titlea {
     position: absolute;
     top: 0;
     left: 0;
@@ -909,7 +909,7 @@ body {
     border-right: 19px solid transparent;
 }
 
-.goods-right-titleb {
+.goodspart-right-titleb {
      float: left;
      width: 20px;
      height: 20px;
@@ -919,36 +919,36 @@ body {
      background: url(../img/sprite.png) no-repeat -192px -3px;
 }
 
-.goods-right-titlec {
+.goodspart-right-titlec {
      float: left;
      font: 26px 微软雅黑;
      line-height: 55px;
      margin: 0 0 0 20px;
 }
 
-.goods-right-titled {
+.goodspart-right-titled {
     float: right;
 } 
 
-.goods-right-titled a {
+.goodspart-right-titled a {
     line-height: 55px;
     margin: 0 20px 0 0;
 }
 
-.goods-right-div {
+.goodspart-right-div {
     width: 378px;
     height: 395px;
     margin: 0 6px;
     position: relative;
 }
 
-.goods-right-diva {
+.goodspart-right-diva {
    width: 378px;
    height: 34px;
    border-bottom: 1px solid #E7E7E7;
 }
 
-.goods-right-diva li {
+.goodspart-right-diva li {
    float: left;
    width: 70px;
    height: 34px;
@@ -957,11 +957,11 @@ body {
    line-height: 34px;
 }
 
-.goods-right-diva .on {
+.goodspart-right-diva .on {
     border-bottom: 2px solid red;
 }
 
-.goods-right-divb {
+.goodspart-right-divb {
    width: 375px;
    height: 350px;
    /*如果视图发生偏移 要将父视图设为绝对位置*/
@@ -969,7 +969,7 @@ body {
    margin: 2px 1px;
 }
 
-.goods-right-divb li {
+.goodspart-right-divb li {
    width: 123px;
    height: 172px;
    float: left;
@@ -978,11 +978,11 @@ body {
    border-bottom: 1px solid #E7E7E7;
 }
 
-.goods-right-divb li a img {
+.goodspart-right-divb li a img {
     margin: 10px 0 10px 10px;
 }
 
-.goods-right-divb li a p {
+.goodspart-right-divb li a p {
      width: 100px;
      height: 40px;
      font-size: 12px;
@@ -993,14 +993,14 @@ body {
 /* ==================================== */
 /* ---------大图片区域---------------*/
 /*=====================================*/
-.bigimg {
+.bigimgpart {
   width: 1200px;
   height: 100px;
   margin: 0 auto;
   background: #E0E0E0;
 }
 
-.bigimg a img {
+.bigimgpart a img {
   float: left;
 
 }
