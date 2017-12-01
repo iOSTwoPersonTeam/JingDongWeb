@@ -1005,6 +1005,240 @@ body {
 
 }
 
+/* ==================================== */
+/* ---------综合生活区域1---------------*/
+/*=====================================*/
+.enjoylifepart1 {
+   width: 1200px;
+   height: 480px;
+   margin: 20px auto;
+}
+
+/*---------- 爱逛 ---------*/
+.enjoylifepart1-left {
+   width: 590px;
+   height: 480px;
+   float: left;
+   background: white;
+}
+
+.enjoylifepart1-left-title {
+    width: 590px;
+    height: 58px;
+    background: #974676;
+    color: white;
+}
+
+.enjoylifepart1-left-title p {
+   font: 26px 微软雅黑;
+   margin: 0 0 0 20px;
+   line-height: 58px;
+   float: left;
+}
+
+.enjoylifepart1-left-title ul {
+   float: right;
+   width: 440px;
+   height: 30px;
+   margin: 14px 10px 14px 0
+}
+
+.enjoylifepart1-left-title ul li a {
+   height: 30px;
+   width: 55px;
+   line-height: 30px;
+   text-align: center;
+   font-size: 13px;
+   background-color: rgba(0, 0, 0, 0.2);
+   padding: 0 3px;
+   margin: 0 6px 0 0;
+   display: block; /* 块级元素显示 */
+   float: left;
+
+}
+
+
+.enjoylifepart1-left-content {
+    width: 580px;
+    height: 400px;
+    margin: 10px 5px;
+}
+
+.enjoylifepart1-left-contenttop {
+    width: 580px;
+    height: 260px;
+}
+
+.enjoylifepart1-left-contenttop a {
+     float: left;
+     width: 183px;
+     height: 260px;
+}
+
+.enjoylifepart1-left-contenttop ul {
+    float: right;
+    position: relative;
+    width: 380px;
+    height: 260px;
+}
+
+.enjoylifepart1-left-contenttop ul a {
+   width: 186px;
+   height: 127px;
+   float: left;
+   position: relative;
+   border-right: 1px solid #E7E7E7;
+   border-bottom: 1px solid #E7E7E7;
+}
+
+.enjoylifepart1-left-contenttop ul a h2 {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    color: #9746A0;
+}
+
+.enjoylifepart1-left-contenttop ul a p {
+   height: 60px;
+   width: 60px;
+   position: absolute;
+   top: 45px;
+   left: 15px;
+   color: #666
+   font-size12px;
+
+}
+
+.enjoylifepart1-left-contenttop ul a img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.enjoylifepart1-left-contentbottom {
+   width: 580px;
+   height: 141px;
+   margin: 10px 0 0 0;
+}
+
+.enjoylifepart1-left-contentbottom a {
+   width: 183px;
+   height: 130px;
+   float: left;
+   margin:0 10px 0 0;
+}
+
+/*--------  爱美丽   ------*/
+.enjoylifepart1-right {
+   width: 590px;
+   height: 480px;
+   float: right;
+   background: white;
+}
+
+.enjoylifepart1-right-title {
+   width: 590px;
+   height: 58px;
+   background: #CB365B;
+   color: white;
+}
+
+.enjoylifepart1-right-title p {
+    font-size: 26px;
+    margin: 0 0 0 20px;
+    line-height: 58px;
+    float: left;
+}
+
+.enjoylifepart1-right-title ul {
+    width: 440px;
+    height: 30px;
+    float: right;
+    margin: 14px 10px 14px 0;
+}
+
+.enjoylifepart1-right-title ul li a {
+    float: left; 
+    height: 30px;
+    width: 55px;
+    line-height: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 13px;
+    margin: 0 6px 0 0;
+    padding: 0 3px;
+    text-align: center;
+}
+
+.enjoylifepart1-right-content {
+   width: 580px;
+   height: 400px;
+   margin: 10px 5px;
+} 
+
+.enjoylifepart1-right-contenttop {
+    width: 580px;
+    height: 260px;
+}
+
+.enjoylifepart1-right-contenttop a {
+   float: left;
+   width: 183px;
+   height: 260px;
+}
+
+.enjoylifepart1-right-contenttop ul {
+   width: 380px;
+   height: 260px;
+   position: relative;
+   float: right;
+   margin: 0 5px 0 0;
+}
+
+.enjoylifepart1-right-contenttop ul li a {
+    width: 186px;
+    height: 127px;
+    float: left;
+    position: relative;
+    border-right: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.enjoylifepart1-right-contenttop ul li a h2 {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    color: #CB365B;
+}
+
+.enjoylifepart1-right-contenttop ul li a p {
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    width: 60px;
+    height: 60px;
+    color: #666;
+    font-size: 12px;
+} 
+
+.enjoylifepart1-right-contenttop ul li a img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.enjoylifepart1-right-contentbottom {
+    width: 580px;
+    height: 141px;
+    margin: 10px 0 0 0;
+}
+
+.enjoylifepart1-right-contentbottom a {
+    width: 183px;
+    height: 130px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
 
 
 
