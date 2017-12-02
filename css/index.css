@@ -1005,9 +1005,9 @@ body {
 
 }
 
-/* ==================================== */
-/* ---------综合生活区域1---------------*/
-/*=====================================*/
+/* ====================================== */
+/* ------------综合生活区域1------------------*/
+/*==========================================*/
 .enjoylifepart1 {
    width: 1200px;
    height: 480px;
@@ -1239,16 +1239,469 @@ body {
     margin: 0 10px 0 0;
 }
 
+/* ====================================== */
+/* ------------综合生活区域2------------------*/
+/*==========================================*/
+
+.enjoylifepart2 {
+   width: 1200px;
+   height: 480px;
+   margin: 20px auto;
+}
+
+/*----家电馆-----*/
+.enjoylifepart2-left {
+   width: 590px;
+   height: 480px;
+   float: left;
+}
+
+.enjoylifepart2-left-top {
+   width: 590px;
+   height: 58px;
+   background: #78538E;
+   color: white;
+}
+
+.enjoylifepart2-left-top p {
+    font-size: 26px;
+    margin: 0 0 0 20px;
+    line-height: 58px;
+    float:  left;
+}
+
+.enjoylifepart2-left-top ul {
+    float: right;
+    width: 440px;
+    height: 30px;
+    margin: 14px 10px 14px 0;
+}
+
+.enjoylifepart2-left-top ul li a {
+    float: left;
+    width: 55px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    line-height: 30px;
+    margin: 0 6px 0 0;
+
+}
+
+.enjoylifepart2-left-content {
+   width: 580px;
+   height: 400px;
+   margin: 10px 5px;
+}
+
+.enjoylifepart2-left-contentT {
+   width: 580px;
+   height: 260px;
+}
+
+.enjoylifepart2-left-contentT a {
+    width: 183px;
+    height: 260px;
+    float: left;
+}
+
+.enjoylifepart2-left-contentT ul {
+   float: right;
+   width: 380px;
+   height: 260px;
+}
+
+.enjoylifepart2-left-contentT ul li a {
+   width: 186px;
+   height: 127px;
+   float: left;
+   position: relative;
+   border-right: 1px solid #E7E7E7;
+   border-bottom: 1px solid #E7E7E7;
+}
+
+.enjoylifepart2-left-contentT ul li a h2 {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    color: #78538E;
+}
+
+.enjoylifepart2-left-contentT ul li a p {
+    position:  absolute;
+    top: 45px;
+    left: 15px;
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+    color: #666;
+}
+
+.enjoylifepart2-left-contentT ul li a img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.enjoylifepart2-left-contentB {
+    width: 580px;
+    height: 141px;
+    margin: 10px 0 0 0;
+}
+
+.enjoylifepart2-left-contentB a {
+    width: 183px;
+    height: 130px;
+    float: left;
+    display: block;
+    margin: 0 10px 0 0;
+}
 
 
+/*------搞机派-----*/
+.enjoylifepart2-right {
+   width: 590px;
+   height: 480px;
+   float: right;
+}
+
+.enjoylifepart2-right-top {
+   width: 590px;
+   height: 58px;
+   background: #5A698F;
+   color: white;
+} 
+
+.enjoylifepart2-right-top p {
+    font-size: 26px;
+    margin: 0 0 0 20px;
+    line-height: 58px;
+    float: left;
+}
+
+.enjoylifepart2-right-top ul {
+    float: right;
+    width: 440px;
+    height: 30px;
+    margin: 14px 10px 14px 0;
+}
+
+.enjoylifepart2-right-top ul li a {
+    height: 30px;
+    width: 55px;
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+    background: rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 6px 0 0;
+    padding: 0 3px;
+
+}
+
+.enjoylifepart2-right-content {
+   width: 580px;
+   height: 400px;
+   margin: 10px 5px;
+}
+
+.enjoylifepart2-right-contentT {
+   width: 580px;
+   height: 260px;
+}
+
+.enjoylifepart2-right-contentT a {
+    width: 183px;
+    height: 260px;
+    float: left;
+}
+
+.enjoylifepart2-right-contentT ul {
+    width: 380px;
+    height: 260px;
+    float: right;
+    margin-right: 0 5px 0 0;
+    position: relative;
+}
+
+.enjoylifepart2-right-contentT ul li a {
+    width: 186px;
+    height: 127px;
+    float: left;
+    border-right: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    position: relative;
+}
+
+.enjoylifepart2-right-contentT ul li a h2 {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    color: #5A698F;
+}
+
+.enjoylifepart2-right-contentT ul li a p {
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    height: 60px;
+    width: 60px;
+    font-size: 12px;
+    color: #666;
+}
+
+.enjoylifepart2-right-contentT ul li a img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.enjoylifepart2-right-contentB {
+     width: 580px;
+     height: 141px;
+     margin: 10px 0 0 0;
+
+}
+
+.enjoylifepart2-right-contentB a {
+    width: 183px;
+    height: 130px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+/* ====================================== */
+/* ------------第二部分大图片区域------------------*/
+/*==========================================*/
+
+.bigImageSecondPart {
+    width: 1200px;
+    height: 100px;
+    margin: 10px auto;
+    background: #E0E0E0;
+}
+
+.bigImageSecondPart a img {
+  float: left;
+}
+
+/* ====================================== */
+/* ------------还没有逛够区域 更多区域------------------*/
+/*==========================================*/
+
+.morePart {
+    width: 1200px;
+    height: 1292px;
+    margin: 0 auto 10px auto;
+}
+
+.morePart ul li a {
+    width: 230px;
+    height: 315px;
+    float: left;
+    margin: 0 8px 8px 2px;
+    display: block;
+}
+
+.morePart ul li a img {
+    margin: 7px 4px;
+}
+
+.morePart ul li a p {
+   height: 40px;
+   width: 220px;
+   color: #666;
+   margin: 0 5px;
+}
+
+.morePart ul li a h2 {
+   margin: 0 5px;
+}
+
+/* ====================================== */
+/* ------------最后底部区域------------------*/
+/*==========================================*/
+.footerPart {
+    width: 1200px;
+    height: 430px;
+    margin: 10px auto;
+    border: 1px solid #EAEAEA;
+}
+
+.footerPart-one {
+   float: left;
+   width: 100px;
+   height: 180px;
+   margin: 20px 50px 0 0;
+}
+
+.footerPart-one h3 {
+   font-size: 18px;
+   margin: 0 0 7px 0;
+}
+
+.footerPart-one ul li a {
+   margin: 0 0 5px 0;
+   color: #999999;
+   text-decoration: none;
+}
+
+.footerPart-two {
+   float: left;
+   width: 100px;
+   height: 180px;
+   margin: 20px 50px 0 0;
+}
+
+.footerPart-two h3 {
+   font-size: 18px;
+   margin: 0 0 7px 0;
+}
+
+.footerPart-two ul li a {
+   margin: 0 0 5px 0;
+   color: #999999;
+   text-decoration: none;
+}
+
+.footerPart-three {
+   float: left;
+   width: 100px;
+   height: 180px;
+   margin: 20px 50px 0 0;
+}
+
+.footerPart-three h3 {
+   font-size: 18px;
+   margin: 0 0 7px 0;
+}
+
+.footerPart-three ul li a {
+   margin: 0 0 5px 0;
+   color: #999999;
+   text-decoration: none;
+}
+
+.footerPart-four {
+   float: left;
+   width: 100px;
+   height: 180px;
+   margin: 20px 50px 0 0; 
+}
+
+.footerPart-four h3 {
+   font-size: 18px;
+   margin: 0 0 7px 0;
+}
+
+.footerPart-four ul li a {
+   margin: 0 0 5px 0;
+   color: #999999;
+   text-decoration: none;
+}
+
+.footerPart-five {
+   float: left;
+   width: 100px;
+   height: 180px;
+   margin: 20px 50px 0 0;
+}
+
+.footerPart-five h3 {
+   font-size: 18px;
+   margin: 0 0 7px 0;
+}
+
+.footerPart-five ul li a {
+   margin: 0 0 5px 0;
+   color: #999999;
+   text-decoration: none;
+}
+
+.footerPart-six {
+   float: left;
+   width: 100px;
+   height: 180px;
+   margin: 20px 50px 0 0;
+}
+
+.footerPart-six h3 {
+   font-size: 18px;
+   margin: 0 0 7px 0;
+}
+
+.footerPart-six ul li a {
+   margin: 0 0 5px 0;
+   color: #999999;
+   text-decoration: none;
+}
+
+.footerPart-seven {
+   float: left;
+   width: 210px;
+   height: 180px;
+   margin: 20px 0 0 60px;
+}
+
+.footerPart-seven h3 {
+   font-size: 18px;
+   text-align: center;
+   margin: 0 0 15px 0;
+}
 
 
+.footerPart-last {
+   width: 1000px;
+   height: 180px;
+   margin: 220px auto 0;
+}
 
+.footerPart-last-one {
+    color: #999999;
+}
 
+.footerPart-last-one a {
+   padding: 0 6px;
+}
 
+.footerPart-last-two {
+   color: #999999;
+   margin: 10px 0 6px 50px;
+}
 
+.footerPart-last-two a {
+  padding: 0 6px;
+}
 
+.footerPart-last-three {
+   color: #999999;
+   margin: 6px 0 6px 110px;
+}
 
+.footerPart-last-three a {
+   padding: 0 6px;
+}
 
+.footerPart-last-four {
+   color: #999999;
+   margin: 0 0 0 165px;
+}
+
+.footerPart-last-four a {
+    padding: 0 6px;
+}
+
+.footerPart-last-five {
+    margin: 0 0 0 400px;
+    color: #999999;
+}
+
+.footerPart-last-five a {
+    padding: 0 6px;
+
+}
 
 
