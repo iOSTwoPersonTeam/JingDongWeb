@@ -8,7 +8,10 @@
    var b =200;
    console.log(a+b);
 //**************整体部分*******************
+$(function(){
 
+	GPS();
+});
 
 
 
@@ -25,13 +28,13 @@
 
 
 //**************顶部定位部分*******************
-		function GPS(){ //定位函数
-		       $('.GPS ul li').click(function(){
-						$(this).addClass('GPSli-color').siblings().removeClass('GPSli-color');
-						$('.replace').text($(this).text());
-				});
-
-		}
+function GPS(){ //定位函数
+       $('.GPS ul li').click(function(){
+       			// alert(1111);
+				$(this).addClass('GPSli-color').siblings().removeClass('GPSli-color');
+				$('.replace').text($(this).text());
+		});
+}
 
 
 
