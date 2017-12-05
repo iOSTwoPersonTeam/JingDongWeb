@@ -19,13 +19,65 @@ body {
 }
 
 .top-left {
-	width: 305px;
-	line-height: 30px;
-	position: relative;
-	text-align: right;
-	font-size: 12px;
-	float: left;
+  	width: 305px;
+  	line-height: 30px;
+  	position: relative;
+  	text-align: right;
+  	font-size: 12px;
+  	float: left;
 }
+
+.top-left-location {
+    width: 58px;
+    height: 30px;
+    position: relative;
+    float: right;
+}
+
+/* hover鼠标定位到位置时候 定位列表显示*/
+.top-left-location:hover .GPS {
+    display: block;
+}
+
+
+.GPS {
+    position: absolute;
+    left: -1px;
+    top: 29px;
+    border: 1px solid #CCC;
+    background: white;
+    width: 322px;
+    height: 220px;
+    z-index: 1;
+    /* 定位列表none 不显示*/
+    display: none;
+}
+
+
+.GPS ul li {
+    width: 50px;
+    height: 22px;
+    margin: 4px 5px;
+    float: left;
+    text-align: center;
+}
+
+.GPS ul li a {
+    line-height:22px;
+    width: 50px;
+    height: 21px;
+    display: block;
+}
+
+.GPS ul .GPSli-color {
+    background: #f10215
+}
+
+.GPS ul .GPSli-color a {
+    color: white
+
+}
+
 
 .top-right {
 	width: 800px;
@@ -50,6 +102,65 @@ body {
    height: 10px;
    background: #CCCCCC;
    margin: 10px;
+}
+
+.top-right-ul .myjd .show {
+    width: 282px;
+    height: 163px;
+    position: absolute;
+    left: -1px;
+    top: 29px;
+    background: white;
+    z-index: 1;
+    display: none;
+    border: 1px solid #ccc;
+}
+
+.top-right-ul .myjd .show a {
+    width: 120px;
+    height: 30px;
+    float: left;
+    font-size: 13px;
+    margin: 0 0 0 5px;
+}
+
+/* 鼠标移动到 显示我的京东内容 */
+.top-right-ul .myjd:hover {
+   border: 1px solid #ccc;
+   background: white;
+}
+.top-right-ul .myjd:hover .show {
+    display: block;
+}
+
+
+
+
+.top-right-ul .serve .show1 {
+   width: 172px;
+   height: 160px;
+   position: absolute;
+   top: 28px;
+   left: -1px;
+   z-index: 2;
+   background: white;
+   display: none;
+   border: 1px solid #ccc;
+}
+
+.top-right-ul .serve .show1 li a {
+    width: 70px;
+    height: 30px;
+    float: left;
+}
+
+/* 客户服务鼠标移动显示列表 */
+.top-right-ul .serve:hover {
+   border: 1px solid #ccc;
+   background: white;
+}
+.top-right-ul .serve:hover .show1 {
+   display: block;
 }
 
 /*============================================*/

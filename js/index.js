@@ -2,6 +2,11 @@
  *  京东首页(一个部分一个部分去实现)
  */
 
+
+
+   var a =11;
+   var b =200;
+   console.log(a+b);
 //**************整体部分*******************
 
 
@@ -20,9 +25,13 @@
 
 
 //**************顶部定位部分*******************
+		function GPS(){ //定位函数
+		       $('.GPS ul li').click(function(){
+						$(this).addClass('GPSli-color').siblings().removeClass('GPSli-color');
+						$('.replace').text($(this).text());
+				});
 
-
-
+		}
 
 
 
