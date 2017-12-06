@@ -11,9 +11,12 @@ $(function(){
 
     //顶部定位函数
 	GPS();
+	
+    twolist('.centerleft-ul li','.centerleftlist');
+
 	//上部内容右面选显卡部分(促销,公告)
     uat('.centerright-middleL li','on','.centerright-middleR');
-
+    
 });
 
 
@@ -39,7 +42,13 @@ function GPS(){  //定位函数
 }
 
 //**************上部内容左边部区域的二级菜单*******************
-
+function twolist(user,finduser){ //二级菜单显示函数
+	$(user).hover(function(){
+				$(this).find(finduser).show();
+			},function(){
+				$(this).find(finduser).hide();
+	});
+}
 
 
 

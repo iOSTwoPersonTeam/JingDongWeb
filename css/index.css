@@ -394,6 +394,92 @@ body {
     font-weight: bold;
 }
 
+/* 中间内容 左边菜单栏部分 */
+.centerleftlist {
+    position: absolute;
+    width: 800px;
+    height: 482px;
+    left: 190px;
+    top: -15px;
+    z-index: 10;
+    background: white;
+    border: 1px solid #F7F7F7;
+    box-shadow: 0 0 8px #DDD;
+    display: none;
+}
+
+.centerleftlisT {
+   width: 800px;
+   height: 25px;
+   margin: 15px 0 0 0;
+}
+
+.centerleftlisT ul li {
+   float: left;
+   height: 25px;
+   width: 100px;
+   margin: 0 5px;
+}
+
+.centerleftlisT ul li a {
+   display: block;
+   height: 25px;
+   text-align: center;
+   line-height: 25px;
+   color: white;
+   background: #5C5251;
+}
+
+.centerleftlistB {
+  width: 800px;
+  height: 420px;
+  margin: 20px 0 0 0;
+  color: #666;
+}
+
+.centerleftlistB dl {
+   display: block;
+   margin: 0 10px 0 0;
+   /* overflow:hidden 超出部分隐藏*/
+   overflow: hidden; 
+}
+
+.centerleftlistB dl dt {
+   display: block;
+   float: left;
+   height: 30px;
+   width: 88px;
+   margin: 4px 3px 0;
+   color: #666;
+}
+
+.centerleftlistB dl dt a {
+    color: black;
+    font: 14px 微软雅黑;
+    font-weight: block;
+    float: right;
+    height: 25px;
+}
+
+.centerleftlistB dl dd {
+   display: block;
+   margin: 2px 0;
+}
+
+.centerleftlistB dl dd a {
+    color: #666666;
+    font-size: 13px;
+    float: left;
+    height: 14px;
+    line-height: 14px;
+    margin: 6px 0;
+    padding: 0 10px;
+    display: block;
+    border-left: 1px solid #E0E0E0;
+}
+
+
+
 
 /* 中部主要轮播图区域 */
 .centermiddle {
