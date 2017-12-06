@@ -310,6 +310,35 @@ body {
 	padding: 0 0 0 5px;
 }
 
+.foundrighta .shopingcar {
+    width:270px;
+    height: 70px;
+    position: absolute;
+    top: 33px; 
+    left: -80px;
+    background: white;
+    display: none;
+    border: 1px solid #ccc;
+}
+
+.shopingcar p {
+   width: 240px;
+   height: 50px;
+   color: #999;
+   margin: 15px 0 0 30px;
+   line-height: 50px;
+   text-align: right;
+}
+
+/* 我的购物车鼠标覆盖事件 */
+.foundrighta:hover{
+    border: 1px solid #ccc;
+}
+
+.foundrighta:hover .shopingcar {
+  display: block;
+}
+
 
 .foundrightb {
 	width: 70px;
@@ -516,6 +545,10 @@ body {
 
 .centerright-middleR {
     margin: 13px 0 0 10px;
+}
+
+.centerright-middle #hidden {
+   display: none;   
 }
 
 
