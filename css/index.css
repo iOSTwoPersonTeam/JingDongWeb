@@ -931,6 +931,19 @@ body {
     font: 19px 微软雅黑;
 }
 
+/* 京东秒杀图片 鼠标移动上后 显示的图片*/
+.moveimg {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #E7E7E7;
+    position: absolute;
+    line-height: 150px;
+    background: white;
+    text-align: center;
+    padding-top: 15px
+}
+
+
 .JDMSimg-right {
     width: 203px;
     height: 225px;

@@ -20,6 +20,9 @@ $(function(){
 
 	  //上部内容右面选显卡部分(促销,公告)
     uat('.centerright-middleL li','on','.centerright-middleR');
+
+    //京东秒杀大图方法功能
+    moveBigimg();
     
 });
 
@@ -48,7 +51,6 @@ function twolist(user,finduser){ //二级菜单显示函数
 				$(this).find(finduser).hide();
 	});
 }
-
 
 
 //**************上部内容中间区域区域的轮播图(左右箭头暂不隐藏)*******************
@@ -119,10 +121,6 @@ function middleslideshow(){
 }
 
 
-
-
-
-
 //**************上部内容区域右面的选项卡函数*******************
 function uat(user,classname,useruta){ //选项卡函数
 	$(user).mouseover(function(){
@@ -132,6 +130,47 @@ function uat(user,classname,useruta){ //选项卡函数
 		$(useruta).eq(loginmain).show(100).siblings(useruta).hide(100);
 	});
 }
+
+//**************上部内容区域右面的选项卡函数*******************
+function moveBigimg(){
+   // alert(123);
+
+   //鼠标移入图片上时候将图片显示出来,并且跟随是鼠标一起移动
+   var x=30,y=-40;
+   //e这个就是event的简写,是事件的意思~
+   //这个e是mouseover事件，在这里用到了e.pageX和e.pageY e这里的功能就是获取鼠标的坐标信息
+   $('.JDMSimg-left-ul-img img').mouseover(function(e){  //鼠标指针位于元素上方 mouseover
+         var _divone = $("<div class='moveimg'><img src='"+this.src+"'/></div>");
+         $('body').append(_divone);
+         $('.moveimg').css({ //这里对图片css具体样式在css文件中定义了
+                        "top":(e.pageY +y) +"px",
+                        "left":(e.pageX+x) +"px"
+         }).show('fast');
+   }).mouseout(function(){  //当鼠标从元素上移 mouseout
+        $('.moveimg').remove();
+   }).mousemove(function(e){ //当鼠标指针在指定的元素中移动时,就会发生事件
+        $('.moveimg').css({
+              "top":(e.pageY +y) +"px",
+              "left":(e.pageX +x) +"px"
+        }).show('fast');
+   })
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
