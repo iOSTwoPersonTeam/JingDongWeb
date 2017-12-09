@@ -10,19 +10,18 @@
 $(function(){
 
     //顶部定位函数
-	GPS();
+	  GPS();
 	
+	  //上部内容左侧菜单选项卡
     twolist('.centerleft-ul li','.centerleftlist');
 
-	//上部内容右面选显卡部分(促销,公告)
+    //上部内容中部轮播图
+     middleslideshow();
+
+	  //上部内容右面选显卡部分(促销,公告)
     uat('.centerright-middleL li','on','.centerright-middleR');
     
 });
-
-
-
-
-
 
 //**************顶部广告显示与关闭*******************
 
@@ -52,12 +51,72 @@ function twolist(user,finduser){ //二级菜单显示函数
 
 
 
+//**************上部内容中间区域区域的轮播图(左右箭头暂不隐藏)*******************
+function middleslideshow(){
+   var index =0,timer;
+   var size = $('.slideshow ul>li').length;
+   //焦点图下面的小按钮
+   $('.slidepoint li').click(function(){  
+       index = $(this).index();
+       manual();
+   });
+   
+   //焦点图左的小按钮
+  $('#left').click(function(){
+  	if (timer) {
+  		clearInterval(timer);
+  	}
+    if (index ==0) {
+  		index = size -1;
+  	} else {
+  		index--;
+  	}
+     manual();
+  });
 
+  //焦点图右的小按钮
+  $('#right').click(function(){
+  	  if (timer) {
+  	  	clearInterval(timer);
+  	  }
+      if (index == size-1) {
+      	index=0;
+      } else {
+      	index++;
+      }
+  	 manual();
+  });
 
+   //焦点图片自动播放
+   //clearInterval() 方法可取消由 setInterval() 设置的时间间隔
+   clearInterval(timer);
+   timer = setInterval(auto,4000);  //自动播放函数
+   $('.slideshow').hover(function(){
+       clearInterval(timer);
+   },function(){
+      timer =setInterval(auto,4000);
+   });
 
+   //自动播放函数
+   function auto(){
+      index ++;
+      if (index >size-1) {
+      	index =0;
+      }
+      manual();
+   }
 
-//**************上部内容中间区域区域的轮播图*******************
+   //焦点图片样式切换
+   //使用淡入效果来显示一个隐藏的元素  fadeIn()
+   //使用淡出效果来隐藏一个元素   fadeOut()  
+   //$(selector).fadeOut(speed,callback) speed 毫秒
+   //stop() 方法停止当前正在运行的动画
+   function  manual() {  
+      $('.slidepoint li').eq(index).addClass('red').siblings().removeClass('red');
+      $('.slideshow ul li').eq(index).stop(true,true).fadeIn(600).siblings().stop(true,true).fadeOut(600);
+   }
 
+}
 
 
 

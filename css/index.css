@@ -499,6 +499,7 @@ body {
 .slideshow {
    width: 790px;
    height: 340px;
+   cursor: pointer;
 }
 
 .slideshow ul li {
@@ -534,6 +535,38 @@ body {
 .slidepoint .red {
   background: red;
 }
+
+#left {
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 145px;
+    text-align: center;
+    font-size: 30px;
+    font-family: simsun;
+    line-height: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    display: block;
+}
+
+#right {
+  width: 40px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 145px;
+  text-align: center;
+  font-size: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  display: block;
+  color: white;
+  font-family: simsun;
+  line-height: 50px;
+}
+
+
 
 /* 轮播图下方图片区域 ------*/
 .centermiddle-bottom {
