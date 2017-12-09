@@ -23,6 +23,9 @@ $(function(){
 
     //京东秒杀大图方法功能
     moveBigimg();
+
+    //顶部固定搜索框以及左侧固定导航栏显示
+    scrollNavigation();
     
 });
 
@@ -158,8 +161,26 @@ function moveBigimg(){
 }
 
 
+//**************顶部固定搜索框以及左侧固定导航栏显示*******************
+function scrollNavigation(){
+   var off =true;
+   $(window).scroll(function(){ //鼠标滚动事件
+     if (off) {
+       var clientH =$(window).height();
+       var scrollytop =$(window).scrollTop();
+       if (scrollytop >=clientH) {
+           $('.toplog').slideDown();  //顶部固定搜索框显示
+       } 
+       else {
+           $('.toplog').slideUp();  //顶部固定搜索框隐藏
+       }
+       
+
+     }
+   });
 
 
+}
 
 
 

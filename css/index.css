@@ -1981,3 +1981,162 @@ body {
 }
 
 
+/* ====================================== */
+/* ------------最顶部隐藏log区域------------------*/
+/*==========================================*/
+.toplog {
+   height: 62px;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   border-bottom: 2px solid red;
+   background: white;
+   display: none;
+   overflow: hidden;
+}
+
+.toplog-left {
+  width: 170px;
+  height: 40px;
+  float: left;
+  background: red;
+  position: relative;
+  left: 100px;
+  top: 10px;
+}
+
+.toplog-right {
+  width: 600px;
+  height: 40px;
+  margin: 10px 0 5px 200px;
+  float: left;
+  background: white;
+  float: left;
+
+}
+
+.toplog-right p {
+   width: 496px;
+   height: 35px;
+   margin: 3px 0 0 0;
+   font:15px 微软雅黑;
+   padding: 0 0 0 5px;
+   background: #EFEFEF;
+   line-height: 35px;
+   float: left;
+}
+
+.toplog-right a {
+  float: left;
+  width: 50px;
+  height: 35px;
+  background: red;
+  cursor: pointer;
+  margin: 3px 0 0 10px;
+  display: inline-block;
+  line-height: 35px;
+  color: white;
+  text-align: center;
+}
+
+/* ====================================== */
+/* ------------右侧菜单导航栏区域------------------*/
+/*==========================================*/
+.rightnavigation ul {
+   height: 240px;
+   width: 40px;
+   position: fixed;
+   bottom: 100px;
+   right: 0;
+   background: white;
+}
+
+.rightnavigation ul li {
+  width: 36px;
+  height: 36px;
+  background: #7A6E6E;
+  position: relative;
+  border-radius: 5px 0 0 5px;
+  cursor: pointer;
+  margin: 3px 0 0 0;
+}
+
+.rightnavigation ul li a i {
+    display: block;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 6px;
+    left: 7px;
+    background: red;
+}
+
+.rightnavigation ul li .i1 {
+   background:url("../img/fixed.png") no-repeat -95px -182px;
+}
+
+.rightnavigation ul li .i2 {
+  background: url("../img/fixed.png") no-repeat -56px -8px;
+}
+
+.rightnavigation ul li .i3 {
+    background: url("../img/fixed.png") no-repeat -53px -57px;
+}
+
+.rightnavigation ul li .i4 {
+  background: url("../img/fixed.png") no-repeat -54px -108px;
+}
+
+.rightnavigation ul li .i5 {
+   background: url("../img/fixed.png") no-repeat -194px -156px;
+}
+
+.rightnavigation ul li .i6 {
+   background: url("../img/fixed.png") no-repeat -56px -158px;
+}
+
+.rightnavigation ul li .i7 {
+  background: url("../img/fixed.png") no-repeat -52px -255px;
+}
+
+/* ====================================== */
+/* ------------左侧菜单导航栏区域------------------*/
+/*==========================================*/
+.leftnavigation {
+  position: fixed;
+  width: 40px;
+  height: 51px;
+  top: 70px;
+  background: white;
+}
+
+.leftnavigation ul li {
+  width: 40px;
+  height: 60px;
+  color: white;
+  background: #918888;
+  text-align: center;
+  display: block;
+  position: relative;
+  margin: 0 0 2px 0;
+  background: red;
+}
+
+.leftnavigation ul li span {
+   position: absolute;
+   top: 10px;
+   display: block;
+   width: 40px;
+   height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
