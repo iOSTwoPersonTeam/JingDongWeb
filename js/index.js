@@ -177,7 +177,7 @@ function scrollNavigation(){
            $('.leftnavigation').fadeOut(1000);
        }
        
-       $('#com').each(function(){ //鼠标滚动时候滚动到相应位置
+       $('.main  #com').each(function(){ //鼠标滚动时候滚动到相应位置
          var _height = $(this).offset().top+100;
          var index =$(this).index();
          if (_height>scrollytop) {
