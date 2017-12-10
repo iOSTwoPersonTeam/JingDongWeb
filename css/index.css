@@ -2099,6 +2099,23 @@ body {
   background: url("../img/fixed.png") no-repeat -52px -255px;
 }
 
+.rightnavigation ul li .limove {
+   width: 60px;
+   height: 36px;
+   position: absolute;
+   right: -70px;
+   color: white;
+   background: #7A6E6E;
+   font: 11px 微软雅黑;
+   text-align: center;
+   line-height: 36px;
+   border-radius: 5px 0 0 5px;
+   z-index: -1;
+
+}
+
+
+
 /* ====================================== */
 /* ------------左侧菜单导航栏区域------------------*/
 /*==========================================*/

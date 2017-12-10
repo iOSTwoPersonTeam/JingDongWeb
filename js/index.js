@@ -26,6 +26,12 @@ $(function(){
 
     //顶部固定搜索框以及左侧固定导航栏显示
     scrollNavigation();
+
+    //顶部返回函数
+    backTotop('.backtoTop');
+    
+    //右侧导航栏菜单
+    rightMove('.rightnavigation ul li','.limove');
     
 });
 
@@ -205,9 +211,21 @@ function scrollNavigation(){
 
 }
 
+//**************返回顶部函数******************
+function backTotop(user){
+   $(user).click(function(){
+      $('body,html').animate({scrollTop:"0px"},400);
+   });
+}
 
-
-
+//**************右侧导航栏菜单******************
+function rightMove(user,finduser){
+    $(user).hover(function(){
+       $(this).find(finduser).stop(true,false).animate({right:"30px"},300);
+    },function(){
+      $(this).find(finduser).stop(true,false).animate({right:"-70px"},300);
+    });
+}
 
 
 
