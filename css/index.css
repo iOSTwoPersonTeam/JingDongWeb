@@ -2108,6 +2108,7 @@ body {
   height: 51px;
   top: 70px;
   background: white;
+  display: none;
 }
 
 .leftnavigation ul li {
@@ -2119,7 +2120,6 @@ body {
   display: block;
   position: relative;
   margin: 0 0 2px 0;
-  background: red;
 }
 
 .leftnavigation ul li span {
@@ -2130,10 +2130,13 @@ body {
    height: 50px;
 }
 
+.leftnavigation ul .red {
+   background: #D70B1C;
+}
 
-
-
-
+.leftnavigation ul li:hover {
+  background: #D70B1C;
+}
 
 
 

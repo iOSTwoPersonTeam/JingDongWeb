@@ -170,11 +170,21 @@ function scrollNavigation(){
        var scrollytop =$(window).scrollTop();
        if (scrollytop >=clientH) {
            $('.toplog').slideDown();  //顶部固定搜索框显示
+           $('.leftnavigation').fadeIn(1200);
        } 
        else {
            $('.toplog').slideUp();  //顶部固定搜索框隐藏
+           $('.leftnavigation').fadeOut(1000);
        }
        
+       $('#com').each(function(){ //鼠标滚动时候滚动到相应位置
+         var _height = $(this).offset().top+100;
+         var index =$(this).index();
+         if (_height>scrollytop) {
+           $('.leftnavigation ul li').not('.backtoTop').eq(index).addClass('red').siblings('.leftnavigation ul li').removeClass('red');
+            return false;
+         }
+       })
 
      }
    });
