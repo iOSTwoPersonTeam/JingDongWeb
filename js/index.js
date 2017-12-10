@@ -177,18 +177,31 @@ function scrollNavigation(){
            $('.leftnavigation').fadeOut(1000);
        }
        
-       $('.main  #com').each(function(){ //鼠标滚动时候滚动到相应位置
+       //鼠标滚动时候滚动到相应位置
+       $('.main  #com').each(function(){ 
          var _height = $(this).offset().top+100;
          var index =$(this).index();
          if (_height>scrollytop) {
            $('.leftnavigation ul li').not('.backtoTop').eq(index).addClass('red').siblings('.leftnavigation ul li').removeClass('red');
             return false;
          }
-       })
-
+       });
      }
    });
 
+    //鼠标点击时候显示相应位置
+    $('.leftnavigation ul li').not('.backtoTop').click(function(){
+       off =false;
+       $(this).addClass('red').siblings().removeClass('red');
+       var index =$(this).index();
+       var _height =$('.main  #com').eq(index).offset().top-63;
+       // animate 注意代码的书写格式
+       if (!$('body,html').is(":animated")) {
+          $('body,html').animate({scrollTop:_height},500,function(){
+             off =true;
+          });
+       }
+    });
 
 }
 
